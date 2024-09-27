@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+
+body {
+    margin: 0;
+    padding: 30px;
+    background-color: rgb(40, 39, 39);
+    display: flex; /* Enable Flexbox */
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    height: 100vh; /* Full viewport height */
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+}
+
+.game-container {
+    color: white;
+    font-weight: bold;
+    background-color: rgb(40, 39, 39);
+    width: 400px; /* Set a fixed width */
+    height: 500px; /* Set a fixed height */
+    padding: 20px;
+    border: 3px solid white;
+    border-radius: 10px;
+    margin: auto;
+}
+button {
+    min-width: 30%;
+    background-color: blueviolet;
+    padding: 10px;
+    border-radius: 10px;
+    color: white;
+    margin: 10px;
+    border: 3px solid white;
+}
+
+
+
+.res {
+    font-size: 15px;
+    text-wrap:wrap;
+}
+.game-objects{
+    padding: 20px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.obj-btn {
+    min-width: 30%;
+    background-color: blueviolet;
+    margin-bottom: 20px;
+}
+button:hover, button:active{
+    background-color: rgb(57, 27, 84);
+}
